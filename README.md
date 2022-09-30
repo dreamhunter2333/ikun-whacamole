@@ -12,3 +12,7 @@ python3 -m venv ./venv
 ![game1](readme_assets/game1.png)
 ![game2](readme_assets/game2.png)
 ![end](readme_assets/end.png)
+
+## 参考
+
+[https://github.com/CharlesPikachu/Games](https://github.com/CharlesPikachu/Games)
