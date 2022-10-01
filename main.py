@@ -26,7 +26,8 @@ class IkunWhacAMoleGame:
         # 加载背景图片
         bg_img = self.image_back
         # 开始界面
-        Tools.startInterface(self.screen, self.image_begin)
+        if not Tools.startInterface(self.screen, self.image_begin):
+            return False
         # 坤坤改变位置的计时
         hole_pos = random.choice(Config.HOLE_POSITIONS)
         change_hole_event = pygame.USEREVENT
