@@ -17,6 +17,7 @@ class Tools:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
+                    return False
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     return True
             screen.blit(begin_image, (0, 0))
@@ -39,6 +40,7 @@ class Tools:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
+                    return False
                 elif event.type == pygame.MOUSEMOTION:
                     mouse_pos = pygame.mouse.get_pos()
                     if mouse_pos[0] in list(range(419, 574)) and mouse_pos[1] in list(range(374, 416)):
