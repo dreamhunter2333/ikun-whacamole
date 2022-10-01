@@ -73,6 +73,7 @@ class IkunWhacAMoleGame:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
+                    return False
                 elif event.type == pygame.MOUSEMOTION:
                     bucket.setPosition(pygame.mouse.get_pos())
                 elif event.type == pygame.MOUSEBUTTONDOWN:
