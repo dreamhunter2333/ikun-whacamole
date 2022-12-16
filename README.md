@@ -2,7 +2,7 @@
 
 ## 安装
 
-到 [Rlease 页面](https://github.com/jinmu333/ikun-whacamole/releases) 下载对应的安装包
+到 [Rlease 页面](https://github.com/dreamhunter2333/ikun-whacamole/releases) 下载对应的安装包
 
 ![start](readme_assets/start.png)
 ![game1](readme_assets/game1.png)
